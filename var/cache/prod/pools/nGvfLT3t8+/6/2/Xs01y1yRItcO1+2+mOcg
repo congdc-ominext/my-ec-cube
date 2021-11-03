@@ -1,0 +1,22 @@
+<?php //Plugin%255CSiteKit%255CController%255CAdmin%255CConfigController%2523analyticsCallback
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/%eccube_admin_route%/cube_kit/analytics_callback',
+            ],
+            'name' => [
+                'site_kit_analytics_callback',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

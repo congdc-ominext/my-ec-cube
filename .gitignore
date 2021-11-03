@@ -1,0 +1,5 @@
+vendor/
+symfony.lock
+.env
+composer.lock
+dockerbuild/
